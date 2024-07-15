@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp20">
+
+        <TextView
+            android:id="@+id/tvH2"
+            style="@style/h2_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Signature Class" />
+
+
+        <TextView
+            android:id="@+id/tvH4"
+            style="@style/h4_light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp20"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvH2"
+            app:layout_constraintTop_toBottomOf="@+id/tvH2"
+            tools:text="OverviewOverviewOverview" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            style="@style/body_medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp12"
+            android:textColor="@color/dark_grey"
+            app:layout_constraintEnd_toEndOf="@+id/tvH4"
+            app:layout_constraintStart_toStartOf="@+id/tvH4"
+            app:layout_constraintTop_toBottomOf="@+id/tvH4"
+     />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

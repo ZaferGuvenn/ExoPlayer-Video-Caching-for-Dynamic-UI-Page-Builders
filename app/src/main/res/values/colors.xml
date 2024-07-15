@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <color name="purple_200">@color/siro_green</color>
+    <color name="purple_500">@color/siro_green</color>
+    <color name="purple_700">@color/siro_green</color>
+    <color name="teal_200">@color/siro_green</color>
+    <color name="teal_700">@color/siro_green</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black70">#B3000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black50">#80000000</color>
+    <color name="black20">#33000000</color>
+    <color name="black10">#1A000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- primary -->
+    <color name="siro_green">#1C3532</color>
+    <color name="siro_green80">#CC1C3532</color>
+
+    <!-- secondary -->
+    <color name="blush">#E9D4C3</color>
+    <color name="yellow">#EEF90C</color>
+    <color name="tan">#CCA58E</color>
+    <color name="light_green">#B7CFA6</color>
+    <color name="dark_green">#0F1615</color>
+    <color name="dark_grey">#606060</color>
+
+    <!-- tint -->
+    <color name="tint_light_tan">#F9E9E0</color>
+    <color name="tint_green">#D9EECA</color>
+    <color name="tint_yellow">#F5F8C0</color>
+    <color name="mid_grey">#C1C1C1</color>
+    <color name="zen_grey">#E9E9E9</color>
+    <color name="light_grey">#F8F8F8</color>
+
+    <color name="dark_green20">#192e2c</color>
+
+    <!-- states -->
+    <color name="success_dark">#4B9267</color>
+    <color name="success_light">#CAF0D0</color>
+    <color name="warning_dark">#D3AF51</color>
+    <color name="warning_light">#F8ECCE</color>
+    <color name="error_dark">#C2454B</color>
+    <color name="error_light">#F3CDCF</color>
+    <color name="membership_gradient_start">#FFF2C7</color>
+    <color name="membership_gradient_end">#C7B36C</color>
+
+    <color name="shimmer_color">#C5C5C5</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/white</color>
+
+    <color name="grey_progress">#D9D9D9</color>
+
+    <!-- Adyen -->
+    <color name="primaryColor">@color/siro_green</color>
+    <color name="label_color">@color/black</color>
+    <color name="textColor">@color/black</color>
+    <color name="textColorNote">@color/black</color>
+
+    <color name="color_green">#FF4B9267</color>
+    <color name="color_disable">#FF606060</color>
+
+</resources>

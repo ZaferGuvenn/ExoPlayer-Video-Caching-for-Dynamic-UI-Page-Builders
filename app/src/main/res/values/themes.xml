@@ -1,0 +1,126 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CacheVideoWithExoPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.CacheVideoWithExoPlayer" parent="Base.Theme.CacheVideoWithExoPlayer" />
+
+    <style name="heading">
+        <item name="fontFamily">@font/gt_flexa_condensed_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="h1" parent="heading">
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="h1_light" parent="heading">
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">@font/gt_flexa_condensed_light</item>
+    </style>
+
+    <style name="h2" parent="heading">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="h2_light" parent="heading">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/gt_flexa_condensed_light</item>
+    </style>
+
+    <style name="h3" parent="heading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="h3_light" parent="heading">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontFamily">@font/gt_flexa_condensed_light</item>
+    </style>
+
+    <style name="h4" parent="heading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:fontWeight">300</item>
+    </style>
+
+    <style name="h4_light" parent="heading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontFamily">@font/gt_flexa_condensed_light</item>
+    </style>
+
+    <style name="h5_light" parent="heading">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="fontFamily">@font/gt_flexa_condensed_light</item>
+    </style>
+
+    <style name="body">
+        <item name="android:fontFamily">@font/bianco_sans_regular</item>
+    </style>
+
+    <style name="body_large" parent="body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="body_large_bold" parent="body_large">
+        <item name="android:fontFamily">@font/bianco_sans_bold</item>
+    </style>
+
+    <style name="body_medium" parent="body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">8dp</item>
+    </style>
+
+    <style name="body_medium_bold" parent="body_medium">
+        <item name="android:fontFamily">@font/bianco_sans_bold</item>
+    </style>
+
+    <style name="body_small" parent="body">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="body_small_bold" parent="body_small">
+        <item name="android:fontFamily">@font/bianco_sans_bold</item>
+    </style>
+
+    <style name="label">
+        <item name="android:fontFamily">@font/bianco_sans_regular</item>
+    </style>
+
+    <style name="RoundedCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5dp</item>
+    </style>
+
+    <style name="label_large" parent="label">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="label_medium" parent="label">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="lineHeight">16dp</item>
+    </style>
+
+    <style name="label_medium_bold" parent="label_medium">
+        <item name="fontFamily">@font/bianco_sans_bold</item>
+    </style>
+
+    <style name="label_small" parent="label">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+</resources>
