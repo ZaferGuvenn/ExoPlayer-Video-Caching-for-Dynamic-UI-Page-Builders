@@ -1,0 +1,2 @@
+# ExoPlayer Video Caching for Dynamic UI Page Builders
+ This repository demonstrates how to implement efficient video caching using ExoPlayer in Android applications, specifically tailored for dynamic UI page builders. It provides a comprehensive example of how to integrate ExoPlayer for seamless video playback, optimize performance through caching, and manage multiple video instances in dynamic user interfaces.
