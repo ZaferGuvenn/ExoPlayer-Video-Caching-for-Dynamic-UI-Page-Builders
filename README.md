@@ -1,4 +1,5 @@
-# ExoPlayer Video Caching for Dynamic UI Pages
+# ExoPlayer Video Caching for Dynamic UI Pagesi
+# Used Architecture is MVP
 
 Welcome to the ExoPlayer Video Caching for Dynamic UI Pages repository! This project showcases an advanced implementation of ExoPlayer for efficient video playback in Android applications, optimized specifically for dynamic UI pages.
 
